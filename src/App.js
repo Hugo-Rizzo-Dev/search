@@ -29,7 +29,6 @@ async function handleSearch(){
   }
 
   return (
-    <Router basename="/tothepointe_login">
     <div className="container">
     <h1 className="title">CEP Search</h1>
 
@@ -53,7 +52,6 @@ async function handleSearch(){
     )}
 
     </div>
-    </Router>
   );
 }
 
